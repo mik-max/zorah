@@ -43,6 +43,7 @@ const Header = () => {
                     <img src={`/images/${isOpen? 'close' : 'magic'}.svg`} alt="magic" className='size-1/2 object-contain' />
                </button>
           </div>
+          {/* <div className="h-96 w-72 origin-bottom rounded-lg bg-white object-cover hover:cursor-grab active:cursor-grabbing"></div>  remove later oo*/} 
     </header>
   )
 }
